@@ -54,10 +54,10 @@ nix run github:vrubelroman/vbotssh?ref=v0.1.1
 Install into the current profile:
 
 ```bash
-nix profile install github:vrubelroman/vbotssh?ref=v0.1.1
+nix profile add github:vrubelroman/vbotssh?ref=v0.1.1
 ```
 
-`nix profile install` installs `vbotssh` into the current user's Nix profile. It does not edit `configuration.nix`, does not rebuild NixOS, and does not make the package a declarative system package.
+`nix profile add` installs `vbotssh` into the current user's Nix profile. It does not edit `configuration.nix`, does not rebuild NixOS, and does not make the package a declarative system package.
 
 ### Debian / Ubuntu
 
